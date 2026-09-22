@@ -603,7 +603,7 @@ main[hidden]{display:none}
 .more:hover svg,a:hover > .body .more svg{transform:translateX(3px)}
 
 /* Compact hero (home) */
-.hero.compact > .wrap{padding-top:clamp(128px,16vh,168px);padding-bottom:clamp(44px,6vw,72px);grid-template-columns:1fr}
+.hero.compact > .wrap{padding-top:clamp(128px,16vh,168px);padding-bottom:clamp(44px,6vw,72px)}
 .hero.compact .hero-title{font-size:clamp(32px,3.6vw,50px);margin-bottom:20px}
 [data-lang="zh"] .hero.compact .hero-title{font-size:clamp(28px,3.1vw,42px)}
 .hero.compact .lede{margin-bottom:30px;font-size:clamp(15px,1.15vw,16.5px)}
@@ -785,4 +785,19 @@ main[hidden]{display:none}
 .us-card.wide .seal svg{width:42px;height:42px}
 .us-card.wide .seal b{font-size:38px}
 @media (max-width:900px){.us-cards{grid-template-columns:1fr}}
-@media (max-width:560px){.us-card,.us-card.wide{grid-template-columns:1fr}.us-card .ph,.us-card .seal{max-width:150px}}
+@media (max-width:560px){.us-card,.us-card.wide{grid-template-columns:1fr}.us-card .ph,.us-card .seal,.us-card .logo-plate{max-width:150px}}
+
+/* SEIA member logo (supplied by the company) */
+.logo-plate{background:#fff;border-radius:6px;display:flex;align-items:center;justify-content:center;padding:14px 16px;border:1px solid var(--line)}
+.logo-plate img{width:100%;height:auto;max-height:100%;object-fit:contain}
+.us-card .logo-plate{aspect-ratio:1;padding:16px}
+.hero-member{align-self:end;justify-self:end;display:flex;flex-direction:column;gap:8px;max-width:340px;animation:rise .9s cubic-bezier(.2,.7,.2,1) .3s both}
+.hero-member .logo-plate{padding:16px 22px;border:0;box-shadow:0 20px 50px -24px rgba(0,0,0,.6)}
+.hero-member b{font-size:14px;font-weight:600;color:#fff;line-height:1.35;margin-top:4px}
+.hero-member span{font-size:12px;color:var(--night-muted);letter-spacing:.03em;line-height:1.4}
+.hero.compact > .wrap{grid-template-columns:minmax(0,8fr) minmax(0,4fr);gap:32px 40px}
+@media (max-width:980px){.hero.compact > .wrap{grid-template-columns:1fr}.hero-member{justify-self:start;max-width:280px;margin-top:8px}.hero-member .logo-plate{padding:12px 16px}}
+@media (prefers-reduced-motion:reduce){.hero-member{animation:none}}
+.foot-logos{display:flex;align-items:center;gap:18px}
+.foot-logos .sep{width:1px;height:28px;background:var(--line-strong)}
+.foot-logos .logo-plate{padding:6px 10px;border-radius:4px;width:120px}
