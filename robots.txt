@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wulei0716.github.io/pn-smart-energy-site/sitemap.xml
