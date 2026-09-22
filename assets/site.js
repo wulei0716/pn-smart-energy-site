@@ -33,13 +33,21 @@ const EN = {
   'h.ir.eyebrow':'Investor relations','h.ir.p':'Announcements, financial reports, SEC filings and stock information are available on the investor relations website.',
   'h.ir.l1':'Stock information','h.ir.l2':'Press releases','h.ir.l3':'Financial reports','h.ir.l4':'SEC filings','h.ir.more':'Investor relations page',
 
+  /* U.S. presence */
+  'us.eyebrow':'U.S. localization','us.title':'Rooted in the North American market: SEIA membership and a New York office','us.more':'Learn more',
+  'us.seal':'Member','us.s.eyebrow':'Industry association member','us.s.title':'Member of the Solar Energy Industries Association (SEIA)',
+  'us.s.p':'In 2026 PN Smart Energy became a member of the Solar Energy Industries Association (SEIA). Founded in 1974 and headquartered in Washington, D.C., SEIA is the national trade association for the U.S. solar and storage industries, working with more than 1,200 member companies.',
+  'ab.seia.p':'In 2026 PN Smart Energy became a member of the Solar Energy Industries Association (SEIA). Founded in 1974 and headquartered in Washington, D.C., SEIA is the national trade association for the U.S. solar and storage industries, working with more than 1,200 member companies. Following the Delaware and Texas subsidiaries and the New York investor relations office, SEIA membership is a further step in PN’s U.S. localization strategy, deepening ties with North American markets, policy and industry partners.',
+  'us.n.eyebrow':'Investor relations office','us.n.title':'New York investor relations office','us.n.p':'Opened in August 2026 in Midtown Manhattan; gives North American investors and partners a direct channel during U.S. business hours.','us.n.more':'Contact details',
+  'ml3':'Became a member of the Solar Energy Industries Association (SEIA)',
+
   /* About */
   'ab.eyebrow':'About us','ab.title':'A global independent power provider<br>building an integrated energy value chain',
   'ab.lede':'From critical energy materials to power transmission products to clean generation assets — PN Smart Energy is growing along this value chain from a PV component manufacturer into an owner-operator power producer.',
   'ab.pf.eyebrow':'Company profile','ab.pf.title':'From PV component manufacturer<br>to owner-operator power producer',
   'ab.pf.p1':'PN Smart Energy Limited (Nasdaq: PN) is a global independent power provider (IPP) focused on the development of clean power stations, critical energy materials, and intelligent energy infrastructure. Through its PNTECH brand, the Company also manufactures photovoltaic cables and connectors, serving customers across 140 countries and regions.',
   'ab.pf.p2':'Formerly known as Skycorp Solar Group Limited, the Company was a solar PV product provider principally engaged in the manufacture and sale of solar cables and connectors. Following a shareholder resolution passed on June 10, 2026, the Company officially changed its name to PN Smart Energy Limited on June 12, 2026. The new name, inspired by its Nasdaq ticker symbol “PN,” reflects the Company’s strategic focus on “Power” and “New” — representing its commitment to new energy, new assets, and new value creation.',
-  'ab.pf.p3':'In May 2026 the Company completed the 100% acquisition of Nanjing Cesun Power, formally transforming from a manufacturer into an independent power producer that owns and operates its distributed plants. Today we own and operate ten C&I rooftop solar plants across Zhejiang, Jiangsu and Anhui, with subsidiaries in Singapore, Delaware and Texas and an investor relations office in Midtown Manhattan.',
+  'ab.pf.p3':'In May 2026 the Company completed the 100% acquisition of Nanjing Cesun Power, formally transforming from a manufacturer into an independent power producer that owns and operates its distributed plants. Today we own and operate ten C&I rooftop solar plants across Zhejiang, Jiangsu and Anhui, with subsidiaries in Singapore, Delaware and Texas, an investor relations office in Midtown Manhattan, and, since 2026, membership of the Solar Energy Industries Association (SEIA).',
   'ab.pf.p4':'Our long-term vision is to build an integrated energy value chain, from critical energy materials such as copper, to power transmission products, to clean energy generation assets.',
   'fact.hq':'Headquarters','fact.hq.v':'Ningbo, Zhejiang, China',
   'fact.listing':'Listing','fact.listing.v':'Nasdaq · NASDAQ: PN · March 5, 2025',
@@ -62,7 +70,7 @@ const EN = {
   'ab.ml.eyebrow':'Milestones','ab.ml.title':'Fifteen years of steady steps','ab.ml.lede':'From the founding of PNTECH in 2011 to the Nasdaq listing in 2025, and in 2026 the Cesun Power acquisition, the rename and the start of a U.S. localization strategy.',
   'ml1':'PNTECH founded, focused on solar cables and connectors','ml2':'Cesun Power settles in the Nanjing Pukou Economic Development Zone as a key municipal investment project',
   'tl1':'Listed on Nasdaq (NASDAQ: PN)','tl2':'Singapore subsidiary PN Sunshine Pte. Ltd. established','tl3':'$300M Form F-3 shelf registration declared effective','tl4':'100% acquisition of Nanjing Cesun Power completed; transition to IPP','tl5':'Company renamed PN Smart Energy Limited','tl6':'Delaware and Texas subsidiaries incorporated, New York IR office opened; 9.9&nbsp;MW and 200&nbsp;MW framework agreements signed',
-  'ab.hn.eyebrow':'Recognition & partnerships','ab.hn.title':'Building technical capability with industry bodies and universities',
+  'ab.hn.eyebrow':'Recognition & partnerships','ab.hn.title':'Industry associations and university partnerships',
   'ab.hn.1':'Nanjing Cesun Power is a council member of the Jiangsu PV Industry Association (4th council, 2023–2028)',
   'ab.hn.2':'Industry–academia base with the College of Engineering, Nanjing Agricultural University: electric-vessel power systems and smart-energy AI',
   'ab.hn.3':'Partnership with the College of Electronic and Information Engineering, Nanjing University of Aeronautics and Astronautics: power electronics and intelligent control',
